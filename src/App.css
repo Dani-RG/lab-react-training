@@ -1,3 +1,42 @@
 .App {
   text-align: center;
 }
+
+button {
+  all: unset;
+  border: 1px solid gray;
+  background-color: white;
+  margin: 3px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.white {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+.red {
+  background-color: red;
+  padding: 10px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.blue-bg {
+  background-color: lightskyblue;
+}
