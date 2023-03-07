@@ -15,6 +15,7 @@ import NumbersTable from './components/NumbersTable';
 import FaceBook from './components/FaceBook';
 import profiles from './data/berlin.json';
 import SignupPage from './components/SignupPage';
+import RGBColorPicker from './components/RGBColorPicker';
 
 function App() {
 
@@ -144,6 +145,8 @@ function App() {
       <FaceBook AllProfiles={profiles}/>
 
       <SignupPage />
+
+      <RGBColorPicker />
       
     </div>
   );
